@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Viper Racing track make walls tutorial">
+<meta name="keywords" content="track,viper,racing,tutorial">
+<style>
+body {
+    font-family: arial;
+    font-size: 20px;
+    background-image: url("http://vnovak.com/images/beigeback13.jpg");
+}
+h1 {
+    font-size: 30px;
+    color: #008000;
+    text-align: center;
+}
+.container {
+            width: 950px;
+            margin:auto;
+}
+.pic1 {
+    float: left; 
+}
+.pic2 {
+    float: right; 
+}
+.pic3 {
+    float: left; 
+}
+
+.clear {
+    clear: both;
+     }
+h1 {
+    font-size: 30px;
+    color: #008000;
+    text-align: center;
+}
+h3 {
+    font-size: 15px;
+    color: #008000;
+    text-align: center;
+}
+
+</style>
+<title>Viper Racing wall making instructions.</title>
+</head>
+
+<body>
+<div class="container">
+<div class="pic1"><img src="http://vnovak.com/images/vr1-22oct2016.jpg"></div>
+<div class="pic2"><img src="http://vnovak.com/images/vr2-22oct2016.jpg"></div>
+<h1>
+-2016-<br>
+Short tutorial on how to make hittable walls for any Viper Racing track object like signs,buildings,guard rails ....etc....
+</h1>
+<div class="clear">
+<p>
+Paste the wall.mod object you exported from Zmodeler or wherever here.
+<br>
+For example if you had a cube object like a <font color="brown">house1.mod</font> exported from zmodeler,you would first make a
+<br>
+ copy of the <font color="brown">house1.mod</font>,name it <font color="brown">wall-house1.mod</font>,import it into zmodeler,delete the top and bottom
+<br>
+ of the cube type house and export it into a mod2wall folder ( that has the <font color="red">mod2quadnoz.exe</font> ) inside the
+<br> folder you are making the track in.
+<p>
+To make walls for any object they must be <font color="blue">vertical only</font>,must not be tilting and no horizontal parts will work.
+<br>
+To make walls you run the <font color="red">mod2quadnoz.exe</font> program,
+<br>then set the top and bottom to the example numbers below:
+</p>
+<p>
++0  bottom and +1.0 top is best height for guard rails
+</p>
+<p>
++0 and +4.0 for  big billboards
+</p>
+<p>
++0 and +2.0 for  small billboards
+</p>
+<p>
++0 and +8 for start line banner posts
+</p>
+<p>
++0 and +10 for 1 story buildings 
+</p>
+<p>
+Next you click the <font color="blue">process</font> button and double click the wall mod file.
+<br>
+Copy the contents of the generated <font color="blue">name-mod-noz.txt</font> and paste it into your "fooland<font color="red">surface</font>.txt" file in the main track making folder.
+<br>
+Now when you put your track together and replace any track in <font color="blue">Trackman</font>,you will be able to hit that house,
+<br>
+not drive through it like before.
+</p>
+
+<div class="pic3"><img src="http://vnovak.com/images/endoftut22oct2016.jpg"></div>
+<p>&nbsp;</p>
+<h3>QUICK TUT MADE BY VAL NOVAK IN MOOSE JAW SASK. CANADA  - 23 oct 2016</h3>
+
+</div>
+</div>
+
+</body>
+
+</html>

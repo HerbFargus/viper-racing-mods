@@ -1,0 +1,6 @@
+26 Dec 2012
+This batch file will reverse the racing direction in Viper Racing on a track path you made and wanted the forward racing direction in the game to be opposite to start with.
+Just put this batch file in the folder where you used Sucahyos vrtrackmaker tool to make a track and double click the batch file.Now when you put the track together , the racing direction in the game will be reversed to start with.
+Any questions you can email me at:
+val5662@yahoo.com
+Val 

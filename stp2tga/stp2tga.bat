@@ -1,0 +1,1 @@
+Stp2Tga  -(switch) *.stp

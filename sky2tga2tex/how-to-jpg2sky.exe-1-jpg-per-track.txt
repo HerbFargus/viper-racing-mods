@@ -1,0 +1,4 @@
+Run the jpg2sky.exe and choose only one of the 3 shown in the program.
+Then click "Make sky" button, then double click the sky-tga2tex.bat file to make the 4 sky tex files.
+Copy and paste the tex files into the mkresfiles folder.
+Done for this part.
